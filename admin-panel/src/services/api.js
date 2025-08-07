@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: 'https://ah-game-backend-iezb.onrender.com/api',
 });
 
 // Add Authorization token for admin
